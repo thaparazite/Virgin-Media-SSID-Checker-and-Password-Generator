@@ -14,8 +14,10 @@ The **SsidChecker** project is a Java application designed to validate Virgin Me
 
 A valid SSID must meet the following conditions:
 
-1️⃣ The first two characters must be `VM` (case-insensitive). 
+1️⃣ The first two characters must be `VM` (case-insensitive).
+
 2️⃣ The middle section must be a sequence of five digits in **ascending order**. 
+
 3️⃣ The last three characters must be **vowels** (A, E, I, O, U).
 
 ✅ Example of a valid SSID: `VM-12345-EEO`
@@ -54,8 +56,11 @@ The application generates passwords based on a provided PPSN (Personal Public Se
 ## 🚀 Usage
 
 1️⃣ Enter an SSID for validation.
+
 2️⃣ Receive feedback on whether the SSID is valid or not.
+
 3️⃣ If valid, proceed to password generation by entering a PPSN.
+
 4️⃣ The system will generate and display passwords.
 
 ## 🖥️ Example Execution
