@@ -25,23 +25,9 @@ Getting Started
 Prerequisites
 Java Development Kit (JDK) 8 or higher.
 An IDE or text editor of your choice.
+
 Running the Application
 Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/ssid-checker.git
-cd ssid-checker
-Compile the Java Files:
-
-bash
-Copy code
-javac SsidChecker.java SsidCheckerApp.java
-Run the Application:
-
-bash
-Copy code
-java SsidCheckerApp
 Usage
 SSID Validation:
 
