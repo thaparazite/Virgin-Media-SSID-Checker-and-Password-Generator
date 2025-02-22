@@ -101,8 +101,6 @@ CMD Preview:
 -------------------------------------------------------------
 
 
-
-Contact:
-  If you have any questions, feel free to contact me at your-skety_tm@yahoo.com.
+Feel free to contact me at skety_tm@yahoo.com.
  
 
