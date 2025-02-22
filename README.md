@@ -101,10 +101,8 @@ CMD Preview:
 -------------------------------------------------------------
 
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-If you have any questions, feel free to contact me at your-email@example.com.
-  The source code should be commented throughout highlighting and explaining where the key functionality is being addressed.
+Contact:
+  If you have any questions, feel free to contact me at your-skety_tm@yahoo.com.
+ 
 
