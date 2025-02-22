@@ -1,14 +1,17 @@
 # 🚀 Virgin Media SSID Checker & Password Generator🔐
 
+
 ## 📝 Overview
 
 The **SsidChecker** project is a Java application designed to validate Virgin Media SSIDs and generate secure passwords based on a provided PPSN. It ensures that the SSID follows a specific format and meets validation criteria. Additionally, it provides a password generator for enhanced security.
+
 
 ## 🌟 Features
 
 - ✅ **SSID Validation:** Checks whether a given SSID follows the correct format and meets the required conditions.
 - 🔑 **Password Generation:** Generates a set of secure passwords based on a provided PPSN.
 - 🖥️ **Interactive Console Interface:** Allows users to input SSIDs for validation and generate passwords through a simple command-line interface.
+
 
 ## 📌 SSID Validation Criteria
 
@@ -22,6 +25,7 @@ A valid SSID must meet the following conditions:
 
 ✅ Example of a valid SSID: `VM-12345-EEO`
 
+
 ## 🔐 Password Generation
 
 The application generates passwords based on a provided PPSN (Personal Public Service Number) using the following logic:
@@ -33,6 +37,7 @@ The application generates passwords based on a provided PPSN (Personal Public Se
 - 🔠 Appends four randomly generated uppercase letters.
 
 🔑 Example password format: `123$ABCD`
+
 
 ## ⚙️ Installation
 
@@ -53,6 +58,7 @@ The application generates passwords based on a provided PPSN (Personal Public Se
    java SsidCheckerApp
    ```
 
+
 ## 🚀 Usage
 
 1️⃣ Enter an SSID for validation.
@@ -62,6 +68,7 @@ The application generates passwords based on a provided PPSN (Personal Public Se
 3️⃣ If valid, proceed to password generation by entering a PPSN.
 
 4️⃣ The system will generate and display passwords.
+
 
 ## 🖥️ Example Execution
 
@@ -78,14 +85,17 @@ The application generates passwords based on a provided PPSN (Personal Public Se
     To Check Another SSID Type 'yes' : yes
 ```
 
+
 ## 📋 Requirements
 
 - ☕ Java Development Kit (JDK) 8 or later
 - 🖥️ A terminal or command prompt
 
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## 👨‍💻 Author
 
