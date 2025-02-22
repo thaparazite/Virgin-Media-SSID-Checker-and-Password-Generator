@@ -38,7 +38,7 @@ The application generates passwords based on a provided PPSN (Personal Public Se
 
 1️⃣ Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/SsidChecker.git
+   git clone https://github.com/thaparazite/Virgin-Media-SSID-Checker-and-Password-Generator.git
    ```
 2️⃣ Navigate to the project directory:
    ```sh
