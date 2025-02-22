@@ -15,7 +15,9 @@ The **SsidChecker** project is a Java application designed to validate Virgin Me
 A valid SSID must meet the following conditions:
 
 1️⃣ The first two characters must be `VM` (case-insensitive).
+
 2️⃣ The middle section must be a sequence of five digits in **ascending order**.
+
 3️⃣ The last three characters must be **vowels** (A, E, I, O, U).
 
 ✅ Example of a valid SSID: `VM-12345-EEO`
