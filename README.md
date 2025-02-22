@@ -1,63 +1,92 @@
-#Virgin Media SSID Checker and Password Generator
+# Virgin Media SSID Checker and Password Generator
 
-Overview
-This project provides a simple Java application for validating Virgin Media SSIDs and generating passwords based on user input. The application consists of two main classes:
+## Overview
 
-SsidChecker: Handles the validation of SSIDs and password generation.
-SsidCheckerApp: Provides a command-line interface for user interaction.
-Features
-SSID Validation:
+The **SsidChecker** project is a Java application designed to validate Virgin Media SSIDs and generate secure passwords based on a provided PPSN. It ensures that the SSID follows a specific format and meets validation criteria. Additionally, it provides a password generator for enhanced security.
 
-Ensures the SSID follows the format XX-00000-EEE.
-Validates that:
-The prefix is VM.
-The middle section consists of 5 ascending digits.
-The suffix consists of exactly 3 vowels.
-Password Generation:
+## Features
 
-Generates a specified number of passwords based on a provided PPSN (Personal Public Service Number).
-Password format:
-A number derived from the first 7 digits of the PPSN modulo a random number.
-A $ symbol.
-The last two characters of the PPSN in uppercase.
-Four random uppercase letters.
-Getting Started
-Prerequisites
-Java Development Kit (JDK) 8 or higher.
-An IDE or text editor of your choice.
+- **SSID Validation:** Checks whether a given SSID follows the correct format and meets the required conditions.
+- **Password Generation:** Generates a set of secure passwords based on a provided PPSN.
+- **Interactive Console Interface:** Allows users to input SSIDs for validation and generate passwords through a simple command-line interface.
 
-Running the Application
-Clone the Repository:
-Usage
-SSID Validation:
+## SSID Validation Criteria
 
-Enter the SSID in the format XX-00000-EEE when prompted.
-The application will validate the SSID and inform you whether it is valid or not.
-Password Generation:
+A valid SSID must meet the following conditions:
 
-Specify the number of passwords you wish to generate.
-Provide a PPSN in the format 1234567AB.
-The application will generate and display the requested number of passwords.
-Code Structure
-SsidChecker.java
-Variables:
-text: Stores the SSID.
-validationMsg: Stores the validation message.
-Methods:
-setText(String text): Sets the SSID to be validated.
-getValidationMsg(): Returns the validation message.
-validateSSID(): Validates the SSID based on specified rules.
-generatePassword(int numPasswords, String ppsn): Generates passwords based on the provided PPSN.
-SsidCheckerApp.java
-Main Method:
+1. The first two characters must be `VM` (case-insensitive).
+2. The middle section must be a sequence of five digits in **ascending order**.
+3. The last three characters must be **vowels** (A, E, I, O, U).
 
-Interacts with the user to get the SSID and PPSN.
-Validates the SSID and generates passwords based on user input.
-Helper Methods:
+Example of a valid SSID: `VM-12345-EEO`
 
-divider(): Prints a divider line for better readability.
-printGoodByeMsg(): Prints a goodbye message.
-printNumberValidationMsg(): Prints a message indicating invalid number input.
+## Password Generation
+
+The application generates passwords based on a provided PPSN (Personal Public Service Number) using the following logic:
+
+- Extracts the first seven digits of the PPSN.
+- Generates a random number from a predefined set and applies a modulo operation.
+- Appends a `$` symbol.
+- Uses the last two letters of the PPSN.
+- Appends four randomly generated uppercase letters.
+
+Example password format: `123$ABCD`
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/SsidChecker.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd SsidChecker
+   ```
+3. Compile the Java files:
+   ```sh
+   javac SsidChecker.java SsidCheckerApp.java
+   ```
+4. Run the application:
+   ```sh
+   java SsidCheckerApp
+   ```
+
+## Usage
+
+1. Enter an SSID for validation.
+2. Receive feedback on whether the SSID is valid or not.
+3. If valid, proceed to password generation by entering a PPSN.
+4. The system will generate and display passwords.
+
+## Example Execution
+
+```
+  *** Virgin Media SSID Checker and Password Generator ***
+
+    Please find the SSID and enter it for validation
+    SSID Example : VM-12345-EEE
+
+    Enter the SSID : VM-12345-EEO
+
+    SSID is Valid !
+
+    To Check Another SSID Type 'yes' : yes
+```
+
+## Requirements
+
+- Java Development Kit (JDK) 8 or later
+- A terminal or command prompt
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+[Flaviu Vanca](https://github.com/yourusername)
+
+
 
 CMD Preview:
 -------------------------------------------------------------
