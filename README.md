@@ -73,7 +73,7 @@ divider(): Prints a divider line for better readability.
 printGoodByeMsg(): Prints a goodbye message.
 printNumberValidationMsg(): Prints a message indicating invalid number input.
 
-Example:
+CMD Preview:
 -------------------------------------------------------------
   *** Virgin Media SSID Checker and Password Generator ***
 -------------------------------------------------------------
@@ -99,8 +99,7 @@ Example:
 -------------------------------------------------------------
                     ***  Good Bye  ***
 -------------------------------------------------------------
-Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
+
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
